@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/w3.css">
+    <link rel="stylesheet" href="../css/my.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Roboto", sans-serif
+        }
+        body, html {
+            height: 100%;
+            width: 100%;
+            color: #777;
+            line-height: 1.8;
+        }
+    </style>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script src="https://kit.fontawesome.com/6156122b87.js" crossorigin="anonymous"></script>
+</head>
+<body class="w3-light-grey">
+<!--Navbar (sit on top)-->
+<br>
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+           onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars fa-fw w3-text-teal w3-hover-text-indigo"></i>
+        </a>
+        <a href="index.html" class="w3-bar-item w3-button w3-text-teal w3-hover-text-indigo">
+            <b>Home</b>
+        </a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="projects.html" class="w3-bar-item w3-button w3-text-dark-gray">Projects</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-text-dark-gray">About</a>
+            <a href="contact.html" class="w3-bar-item w3-button w3-text-dark-gray">Contact</a>
+        </div>
+    </div>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="projects.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Projects</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">About</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Contact</a>
+    </div>
+</div>
+<!-- First Parallax Image with Logo Text -->
+<div class="parallax-1 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+            <div class="w3-center w3-padding-large polyhedron w3-xlarge w3-wide w3-animate-opacity">
+                <span style="font-size: xxX-large; font-weight: bolder;">
+                    <strong style="color:#FFFFFF; font-family: 'Bookman Old Style', Bookman, Georgia, Serif; opacity: 1">Polyhedron</strong>
+                </span>
+            </div>
+    </div>
+</div>
+<!--Provided services section-->
+<div class="w3-row">
+    <!-- Container -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h3 class="w3-center">PROVIDED SERVICES</h3>
+        <br>
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <span style="color: #009688FF;"><i class="fas fa-brain fa-5x"></i></span>
+                <p class="w3-wide"><strong>Machine Learning</strong></p>
+                <!--          <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">-->
+            </div>
+
+            <div class="w3-col m3">
+                <span style="color: #009688FF;"><i class="fas fa-database fa-5x"></i></span>
+                <p class="w3-wide"><strong>Data Science</strong></p>
+                <!--          <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">-->
+            </div>
+
+            <div class="w3-col m3">
+                <span style="color: #009688FF;"><i class="fas fa-code fa-5x"></i></span>
+                <p class="w3-wide"><strong>Web Scraping</strong></p>
+                <!--          <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">-->
+            </div>
+
+            <div class="w3-col m3">
+                <span style="color: #009688FF;"><i class="fas fa-sitemap fa-5x"></i></span>
+                <p class="w3-wide"><strong>Full-Stack Development</strong></p>
+                <!--          <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">-->
+            </div>
+        </div>
+        <p class="w3-center">
+            <em>
+                <bold>Here is a detailed list of the services and competencies that I provide:</bold>
+            </em>
+        </p>
+        <p>I am a freelance data scientist and web developer actively working on many projects.</p>
+        <p>At the present time I have acquired the following competences:</p>
+        <ul>
+            <li>Data analysis and visualization</li>
+            <li>Supervised machine learning</li>
+            <li>Web data scraping</li>
+            <li>Frontend web development</li>
+        </ul>
+        <p>Regarding programming languages my competences are the followings:</p>
+        <ul>
+            <li>In-depth knowledge of Python and its main libraries (e.g. Numpy, Pandas, Matplotlib, Beautifulsoup, etc.)</li>
+            <li>Good knowledge of SQL, JSON, and XML languages to work with data for general purposes</li>
+            <li>Good knowledge of Nim (through which I can write programs in C, C++, JS)</li>
+            <li>Good knowledge HTML5 and CSS3 for frontend website development (as well as for web scraping)</li>
+            <li>General knowledge of JavaScript for frontend website development</li>
+            <li>General knowledge of C++ and Go to interface with these languages </li>
+        </ul>
+        <p>Concerning general competences I also have got the followings:</p>
+        <ul>
+            <li>Good knowledge of Microsoft Office suite and of general Google services</li>
+            <li>Good knowledge of GNU image manipulation programs for both raster and vector graphics (GIMP and Inkscape)</li>
+            <li>Good ability to make logos and to take care of the graphic part of websites</li>
+        </ul>
+    </div>
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">14+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">55+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">89+</span><br>
+            Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">150+</span><br>
+            Meetings
+        </div>
+    </div>
+</div>
+<!--    &lt;!&ndash; Second Parallax Image with Portfolio Text &ndash;&gt;
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+    </div>-->
+<!-- First Parallax Image with Logo Text -->
+<div class="parallax-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+    </div>
+</div>
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore
+            magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat
+            cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi u
+            aliquip ex ea commodo consequat.
+        </p>
+        <div class="w3-row">
+            <!-- Container (Portfolio Section) -->
+            <div class="w3-content w3-container w3-padding-64" id="portfolio">
+                <h3 class="w3-center">AVAILABLE </h3>
+                <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.</em></p><br>
+
+                <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+                <div class="w3-row-padding w3-center">
+
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-python-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>Python</strong></p>
+                    </div>
+
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-nim-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>Nim</strong></p>
+                    </div>
+
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-cpp-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>C++</strong></p>
+                    </div>
+
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-c-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>C</strong></p>
+                    </div>
+                </div>
+
+                <div class="w3-row-padding w3-center w3-section">
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-html-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>HTML5</strong></p>
+                    </div>
+
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-css-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>CSS3</strong></p>
+                    </div>
+
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-javascript-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>JavaScript</strong></p>
+                    </div>
+
+                    <div class="w3-col m3">
+                        <span style="color: #009688FF;"><i class="my-icon my-go-c my-fill"></i></span>
+                        <p class="w3-wide"><strong>Go</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div>
+            <p class="w3-large w3-center w3-padding-16">Languages:</p>
+            <p class="w3-wide"><i class="fas fa-brain"></i>Python</p>
+            <div class="w3-light-">
+                <div class="w3-container w3-padding-small w3-teal w3-center" style="width:90%; height:20px;">
+                    <p style="color: black;">90%</p>
+                </div>
+            </div>
+            <p class="w3-wide"><i class="fas fa-code"></i>Nim</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-teal w3-center" style="width:85%">85%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-photo"></i>C++</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-teal w3-center" style="width:75%">75%</div>
+            </div>
+        </div>
+        &lt;!&ndash; Modal for full size images on click&ndash;&gt;
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+                <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                        class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>-->
+    </div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-teal w3-center w3-margin-bottom" style="width: 100%">
+    <div class="w3-xlarge w3-section">
+        <i class="fa fa-telegram fa-2x w3-hover-opacity">&nbsp</i>
+        <i class="fa fa-whatsapp fa-2x w3-hover-opacity">&nbsp</i>
+        <i class="fa fa-github fa-2x w3-hover-opacity">&nbsp</i>
+        <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>-->
+        <i class="fa fa-instagram fa-2x w3-hover-opacity">&nbsp</i>
+        <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>-->
+        <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+        <!-- <i class="fa fa-twitter w3-hover-opacity"></i>-->
+        <i class="fa fa-linkedin fa-2x w3-hover-opacity">&nbsp</i>
+        <br>
+        <i style="font-size: 20px">Copyright © 2021 Polyhedron Web Design</i>
+    </div>
+</footer>
+</body>
+</html>

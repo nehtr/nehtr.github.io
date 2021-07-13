@@ -1,0 +1,133 @@
+
+.parallax-1 {
+    /* The image used */
+    background-image: url("../img/banner.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 {
+    /* The image used */
+    background-image: url("../img/provv.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.polyhedron {
+    background: radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
+    background: -moz-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
+    background: -webkit-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
+    border-radius: 100px 0px 100px 0px;
+    box-shadow: 10px 10px 15px #000000;
+    color: #000000;
+
+}
+
+/*icon set:
+*/
+
+.my-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.my-c {
+    background-image: url("../ico/c.svg");
+}
+.my-cpp {
+    background-image: url("../ico/cpp.svg");
+}
+.my-css {
+    background-image: url("../ico/css.svg");
+}
+.my-go {
+    background-image: url("../ico/go.svg");
+}
+.my-html {
+    background-image: url("../ico/html.svg");
+}
+.my-javascript {
+    background-image: url("../ico/javascript.svg")
+}
+.my-nim {
+    background-image: url("../ico/nim.svg");
+}
+.my-python {
+    background-image: url("../ico/python.svg");
+}
+/* colorized */
+.my-c-c {
+    background-image: url("../ico/c-c.svg");
+}
+.my-cpp-c {
+    background-image: url("../ico/cpp-c.svg");
+}
+.my-css-c {
+    background-image: url("../ico/css-c.svg");
+}
+.my-go-c {
+    background-image: url("../ico/go-c.svg");
+}
+.my-html-c {
+    background-image: url("../ico/html-c.svg");
+}
+.my-javascript-c {
+    background-image: url("../ico/javascript-c.svg")
+}
+.my-nim-c {
+    background-image: url("../ico/nim-c.svg");
+}
+.my-python-c {
+    background-image: url("../ico/python-c.svg");
+}
+.my-fill svg {
+    fill: #009688FF !important;
+}
+
+
+
+
+/*!* Create a Parallax Effect *!*/
+/*.bgimg-1, .bgimg-2, .bgimg-3 {*/
+/*    background-attachment: fixed;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+/*!* First image (Logo. Full height) *!*/
+/*.bgimg-1 {*/
+/*    background-image: url('../img/banner.jpg');*/
+/*    min-height: 100%;*/
+/*}*/
+/*!* Second image (Portfolio) *!*/
+/*.bgimg-2 {*/
+/*    background-image: url("../img/banner.jpg");*/
+/*    min-height: 400px;*/
+/*}*/
+/*!* Third image (Contact) *!*/
+/*.bgimg-3 {*/
+/*    background-image: url("../img/banner.jpg");*/
+/*    min-height: 400px;*/
+/*}*/
+/*!*.w3-wide {letter-spacing: 10px;}*!*/
+/*.w3-hover-opacity {cursor: pointer;}*/
+/*!* Turn off parallax scrolling for tablets and phones *!*/
+/*@media only screen and (max-device-width: 1600px) {*/
+/*    .bgimg-1, .bgimg-2, .bgimg-3 {*/
+/*        background-attachment: scroll;*/
+/*        min-height: 400px;*/
+/*    }*/
+/*}*/
