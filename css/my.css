@@ -32,8 +32,22 @@
     border-radius: 100px 0px 100px 0px;
     box-shadow: 10px 10px 15px #000000;
     color: #000000;
-
 }
+.polyhedron-padding {
+    padding: 10% 30% !important;
+}
+.polyhedron-font {
+    font-size: 100vh 100
+}
+/* .polyhedron {
+    background: radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
+    background: -moz-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
+    background: -webkit-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
+    border-radius: 100px 0px 100px 0px;
+    box-shadow: 10px 10px 15px #000000;
+    color: #000000;
+
+} */
 
 /*icon set:
 */
