@@ -28,7 +28,7 @@
 .polyhedron {
     background: radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
     background: -moz-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
-    background: -webkit-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
+    background: -webkit-radial-gradient(circle, #000000 31%,#00ffae 70%,#000000 88%);
     border-radius: 100px 0px 100px 0px;
     box-shadow: 10px 10px 15px #000000;
     color: #000000;
