@@ -33,12 +33,6 @@
     box-shadow: 10px 10px 15px #000000;
     color: #000000;
 }
-.polyhedron-padding {
-    padding: 10% 30% !important;
-}
-.polyhedron-font {
-    font-size: 100vh 100
-}
 /* .polyhedron {
     background: radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
     background: -moz-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
@@ -51,7 +45,6 @@
 
 /*icon set:
 */
-
 .my-icon {
     display: inline-block;
     width: 100px;
@@ -110,10 +103,6 @@
 .my-fill svg {
     fill: #009688FF !important;
 }
-
-
-
-
 /*!* Create a Parallax Effect *!*/
 /*.bgimg-1, .bgimg-2, .bgimg-3 {*/
 /*    background-attachment: fixed;*/
