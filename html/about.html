@@ -1,190 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>about</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        html, body, h1, h2, h3, h4, h5, h6 {
-            font-family: "Roboto", sans-serif
-        }
-        body, html {
-            height: 100%;
-            width: 100%;
-            color: #777;
-            line-height: 1.8;
-        }
-    </style>
-    <script type="text/javascript" src="../js/main.js"></script>
-    <script src="https://kit.fontawesome.com/6156122b87.js" crossorigin="anonymous"></script>
+  <title>about</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/w3.css">
+  <link rel="stylesheet" href="../css/my.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Roboto", sans-serif
+    }
+
+    body,
+    html {
+      height: 100%;
+      width: 100%;
+      color: rgb(0, 0, 0);
+      line-height: 1.8;
+    }
+
+    p {
+      color: hsl(0deg 0% 75%);
+    }
+
+    a {
+      color: #1a1a1a
+    }
+
+    .bar-text {
+      color: hsl(0deg 0% 75%);
+    }
+
+    .home-text {
+      color: hsl(0deg 0% 75%);
+    }
+  </style>
+  <script type="text/javascript" src="../js/main.js"></script>
+  <script src="https://kit.fontawesome.com/6156122b87.js" crossorigin="anonymous"></script>
 </head>
-<body class="w3-light-grey">
-    <!--Navbar (sit on top)-->
-    <div class="w3-top">
-        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
-                onclick="toggleFunction()" title="Toggle Navigation Menu">
-                <i class="fa fa-bars fa-fw w3-text-teal w3-hover-text-indigo"></i>
-            </a>
-            <a href="../index.html" class="w3-bar-item w3-button w3-text-teal w3-hover-text-indigo">
-                <b>Home</b>
-            </a>
-            <!-- Float links to the right. Hide them on small screens -->
-            <div class="w3-right w3-hide-small">
-                <a href="projects.html" class="w3-bar-item w3-button w3-text-dark-gray">Projects</a>
-                <a href="about.html" class="w3-bar-item w3-button w3-text-dark-gray">About</a>
-                <!-- <a href="contact.html" class="w3-bar-item w3-button w3-text-dark-gray">Contact</a> -->
-            </div>
-        </div>
-        <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a href="projects.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Projects</a>
-            <a href="about.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">About</a>
-            <!-- <a href="contact.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Contact</a> -->
-        </div>
+
+<body class="my-grey">
+  <!--Navbar (sit on top)-->
+  <div class="w3-top">
+    <div class="w3-bar my-black w3-wide w3-padding w3-card">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+      </a>
+      <a href="../index.html" class="w3-bar-item w3-button w3-text-teal">
+        <b>Home</b>
+      </a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="projects.html" class="w3-bar-item w3-button bar-text">Projects</a>
+        <a href="about.html" class="w3-bar-item w3-button bar-text">About</a>
+        <!-- <a href="contact.html" class="w3-bar-item w3-button w3-text-dark-gray">Contact</a> -->
+      </div>
     </div>
-    <!-- Page Container  # style="max-width:1400px;" -->
-    <div class="w3-content w3-container w3-padding-64">
-        <!-- The Grid -->
-        <div class="w3-row-padding">
-            <!-- Left Column -->
-            <div class="w3-third">
-                <div class="w3-white w3-card-4">
-                    <div class="w3-display-container">
-                        <img src="../img/profile.jpg" style="width:100%" alt="Avatar">
-                    </div>
-                    <div class="w3-container">
-                        <div class="fa #fa-fw w3-margin-right w3-large w3-text-teal">
-                            <h2>Davide Raucci</h2>
-                        </div>
-                        <p>
-                            <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                            Polyhedron
-                        </p>
-                        <p>
-                            <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                            Milan, Italy
-                        </p>
-                        <p>
-                            <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                            davide.raucci.k@gmail.com
-                        </p>
-                        <!-- <p>
-                            <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                            +39 xxxxxxxxxx
-                        </p> -->
-                        <hr>
-                        <p class="w3-large w3-text-gray">
-                            <b>
-                                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
-                                Skills
-                            </b>
-                        </p>
-                        <li>Preclinical medical knowledge</li>
-                        <li>Programming & computer skills</li>
-                        <li>General mathematics & physics</li>
-                        <br>
-                        <p class="w3-large w3-text-gray">
-                            <b>
-                                <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>
-                                Languages
-                            </b>
-                        </p>
-                        <p>Italian</p>
-                        <div class="w3-dark-grey w3-round-xlarge" style="font-size: 5px">
-                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%"><br></div>
-                        </div>
-                        <p>English</p>
-                        <div class="w3-dark-grey w3-round-xlarge" style="font-size: 5px">
-                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%"><br></div>
-                        </div>
-                        <br>
-                    </div>
-                </div>
-                <br>
-            </div>
-            <!-- Right Column -->
-            <div class="w3-twothird">
-                <div class="w3-container w3-card w3-white w3-margin-bottom">
-                    <h3 class=" w3-padding-16 w3-text-gray">
-                        <i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-                        ABOUT ME
-                    </h3>
-                    <div class="w3-container">
-                        <h5 class="w3-opacity">
-                            <b>Who am I?</b>
-                        </h5>
-                        <p style="text-align: justify">
-                        I am a student of data science and machine learning at Strive School, and of medicine and surgery 
-                        at the International Medical School of the University of Milan.
-                        </p>
-                        <hr>
-                    </div>
-                    <div class="w3-container">
-                        <h5 class="w3-opacity">
-                            <b>Why do I work as a programmer?</b>
-                        </h5>
-                        <p style="text-align: justify">
-                            I started learning programming some years ago in my spare time, and then I decided to further explore
-                            the field. Therefore, I enrolled in the AI engineering course at Strive School, where I'm  currently 
-                            studying data science and machine learning. My goal is to join my knowledge in the informatics and biomedical 
-                            fields in the future.
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="w3-container w3-card w3-white">
-                    <h3 class="w3-padding-16 w3-text-gray">
-                        <i class="fas fa-book fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-                        EDUCATION
-                    </h3>
-                    <div class="w3-container">
-                        <h5 class="w3-opacity"><b>Strive School - AI engineering course</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Currently</h6>
-                        <p>Currently studying data science and machine learning at the AI engineering course at Strive School.</p>
-                        <hr>
-                    </div>
-                    <div class="w3-container">
-                        <h5 class="w3-opacity"><b>International Medical School - University of Milan</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Currently</h6>
-                        <p>I studied at the International Medical School of the University of Milan "La Statale", Segrate.
-                        <br> I currently suspended these studies for two years.</p>
-                        <hr>
-                    </div>
-                    <div class="w3-container">
-                        <h5 class="w3-opacity"><b>High School</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-                        <p>I studied at scientific high school at "Liceo Scientifico Albert Einstein", Milan.</p>
-                        <hr>
-                    </div>
-                    <div class="w3-container">
-                        <h5 class="w3-opacity"><b>Self-Taught</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-                        <p>Not as in the average CV, half of my knowledge and competences actually comes from self-teaching.</p><br>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="projects.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">Projects</a>
+      <a href="about.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">About</a>
+      <!-- <a href="contact.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Contact</a> -->
     </div>
-    <!-- Footer -->
-    <footer class="w3-container w3-teal w3-center w3-margin-top">
-        <div class="w3-xlarge w3-section">
-            <a style="text-decoration: none;" href="tg://resolve?domain=Natriks" class="fa fa-telegram fa-lg w3-hover-opacity">&nbsp</a>
-            <!-- <a class="fa fa-whatsapp fa-lg w3-hover-opacity">&nbsp</a> -->
-            <a style="text-decoration: none;" href="https://github.com/nehtr" class="fa fa-github fa-lg w3-hover-opacity">&nbsp</a>
-            <a style="text-decoration: none;" href="mailto: davide.raucci.k@gmail.com" class="fa fa-envelope fa-lg w3-hover-opacity">&nbsp</a>
-            <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>-->
-            <!-- <i class="fa fa-instagram fa-lg w3-hover-opacity">&nbsp</i> -->
-            <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>-->
-            <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
-            <!-- <i class="fa fa-twitter w3-hover-opacity"></i>-->
-            <!-- <i class="fa fa-linkedin fa-lg w3-hover-opacity">&nbsp</i> -->
+  </div>
+  <!-- Page Container  # style="max-width:1400px;" -->
+  <div class="w3-content w3-container w3-padding-64">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="my-light-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="../img/profile.jpg" style="width:100%" alt="Avatar">
+          </div>
+          <div class="w3-container">
+            <div class="fa #fa-fw w3-margin-right w3-large w3-text-teal">
+              <h2>Nil (@voidpunk)</h2>
+              <h5>aka</h5>
+              <h2>Davide Raucci</h2>
+            </div>
+            <p>
+              <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              freelancer
+            </p>
+            <p>
+              <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              Milan, Italy
+            </p>
+            <p>
+              <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              davide.raucci.k@gmail.com
+            </p>
+            <!-- <p>
+							<i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
+						+39 xxxxxxxxxx
+													</p> -->
+            <hr>
+            <p class="w3-large my-grey-title">
+              <b>
+                <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
+                Skills
+              </b>
+            </p>
+            <div style="color: hsl(0deg 0% 75%);">
+              <li>Medicine & biotechnology</li>
+              <li>Programming & computer science</li>
+              <li>General mathematics & physics</li>
+              <li>Very strong self-study ability</li>
+              <li>Very strong problem-solving</li>
+            </div>
             <br>
-            <i style="font-size: 15px; text-align:left">Copyright © 2021 Polyhedron Web Design</i>
+            <p class="w3-large my-grey-title">
+              <b>
+                <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>
+                Languages
+              </b>
+            </p>
+            <p>Italian</p>
+            <div class="w3-dark-grey w3-round-xlarge" style="font-size: 5px">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%"><br></div>
+            </div>
+            <p>English</p>
+            <div class="w3-dark-grey w3-round-xlarge" style="font-size: 5px">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%"><br></div>
+            </div>
+            <br>
+          </div>
         </div>
-    </footer>
+        <br>
+      </div>
+      <!-- Right Column -->
+      <div class="w3-twothird">
+        <div class="w3-container w3-card my-light-grey w3-margin-bottom">
+          <h3 class=" w3-padding-16 my-grey-title">
+            <i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
+            About me
+          </h3>
+          <div class="w3-container">
+            <h5 class="w3-opacity my-grey-subtitle">
+              <b>Who am I?</b>
+            </h5>
+            <p style="text-align: justify">
+              I am a young data scientist and machine-learning engineer coming from a strong background in
+              the biomedical and biotechnological fields.
+              This is due to my university education as student of Medicine and Surgery at the
+              International Medical School in Milan, which sadly I had to temporary suspend due to
+              economic reasons. Besides my interest in the biomedical and biotechnological fields, I am
+              always been passionate for data science and computer science, so when I got the opportunity
+              to start a new career, I immediately took it.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity my-grey-subtitle">
+              <b>Why do I work as a programmer?</b>
+            </h5>
+            <p style="text-align: justify">
+              Besides paying for my university studies? Well, I started learning programming some years ago in my spare
+              time, and then I decided to further explore the field. Therefore, I enrolled in the data science and AI
+              engineering course at Strive School, where I learnt the foundations of these fields and worked on projects
+              tackling real-life problems. My current goal is to join my knowledge in the informatics and biomedical
+              fields in the future.
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="w3-container w3-card my-light-grey">
+          <h3 class="w3-padding-16 my-grey-title">
+            <i class="fas fa-book fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
+            Education
+          </h3>
+          <div class="w3-container">
+            <h5 class="w3-opacity my-grey-subtitle"><b>International Medical School - University of
+                Milan</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - now [suspended]</h6>
+            <p>I studied at the International Medical School of the University of Milan "La Statale",
+              Segrate.
+              <br> I currently suspended these studies for two years.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity my-grey-subtitle"><b>Strive School - AI engineering course</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021</h6>
+            <p>Currently studying data science and machine learning at the AI engineering course at Strive
+              School.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity my-grey-subtitle"><b>High School</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+            <p>I studied at scientific high school at "Liceo Scientifico Albert Einstein", Milan.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity my-grey-subtitle"><b>Self-Taught</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+            <p>Not as in the average CV, half of my knowledge and competences ACTUALLY comes from
+              self-teaching.</p><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="w3-container w3-teal w3-center w3-margin-bottom" style="width: 100%">
+    <div class="w3-xlarge w3-section">
+      <!-- <a class="fa fa-whatsapp fa-lg w3-hover-opacity">&nbsp</a> -->
+      <a style="text-decoration: none;" href="mailto: davide.raucci.k@gmail.com"
+        class="fa fa-envelope fa-lg w3-hover-opacity">&nbsp</a>
+      <a style="text-decoration: none;" href="https://github.com/voidpunk"
+        class="fa fa-github fa-lg w3-hover-opacity">&nbsp</a>
+      <a style="text-decoration: none;" href="https://gitlab.com/voidpunk"
+        class="fa fa-gitlab fa-lg w3-hover-opacity">&nbsp</a>
+      <a style="text-decoration: none;" href="https://www.kaggle.com/voidpunk"
+        class="fab fa-kaggle fa-lg w3-hover-opacity">&nbsp</a>
+      <a style="text-decoration: none;" href="tg://resolve?domain=nilvoidpunk"
+        class="fa fa-telegram fa-lg w3-hover-opacity">&nbsp</a>
+      <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>-->
+      <!-- <i class="fa fa-instagram fa-lg w3-hover-opacity">&nbsp</i> -->
+      <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>-->
+      <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+      <!-- <i class="fa fa-twitter w3-hover-opacity"></i>-->
+      <!-- <i class="fa fa-linkedin fa-lg w3-hover-opacity">&nbsp</i> -->
+      <br>
+      <i style="font-size: 15px; text-align:left; color: #1a1a1a;">
+        Copyright © 2022 @voidpunk Web Design
+      </i>
+    </div>
+  </footer>
 </body>
+
 </html>
