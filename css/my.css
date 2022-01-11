@@ -51,6 +51,17 @@
     color: #000 !important;
     background-color: #262626 !important;
 }
+.my-light-grey {
+    color: #000 !important;
+    background-color: hsl(0deg 0% 20%) !important;
+}
+
+.my-project-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    color: #019688 !important;
+}
 
 /*icon set:
 */
