@@ -63,6 +63,20 @@
     color: #019688 !important;
 }
 
+.my-grey-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    color: #019688 !important;
+}
+
+.my-grey-subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    color: #8de7e1 !important;
+}
+
 /*icon set:
 */
 .my-icon {
