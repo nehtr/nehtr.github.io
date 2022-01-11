@@ -1,7 +1,7 @@
 
 .parallax-1 {
     /* The image used */
-    background-image: url("../img/banner.png");
+    background-image: url("../img/banner2.jpg");
 
     /* Full height */
     height: 100%;
@@ -14,10 +14,10 @@
 }
 .parallax-2 {
     /* The image used */
-    background-image: url("../img/provv.png");
+    background-image: url("../img/banner3.png");
 
     /* Full height */
-    height: 50%;
+    height: 75%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -42,6 +42,15 @@
     color: #000000;
 
 } */
+
+.my-black{
+    color: #000 !important;
+    background-color: #1a1a1a !important;
+}
+.my-grey {
+    color: #000 !important;
+    background-color: #262626 !important;
+}
 
 /*icon set:
 */
@@ -76,6 +85,18 @@
     background-image: url("../ico/python.svg");
 }
 /* colorized */
+.my-sql-c {
+    background-image: url("../ico/sql-c.svg");
+}
+.my-sql-c2 {
+    background-image: url("../ico/sql-c2.svg");
+}
+.my-sql-c3 {
+    background-image: url("../ico/sql-c3.svg");
+}
+.my-sql-c4 {
+    background-image: url("../ico/sql-c4.svg");
+}
 .my-c-c {
     background-image: url("../ico/c-c.svg");
 }
@@ -100,6 +121,61 @@
 .my-python-c {
     background-image: url("../ico/python-c.svg");
 }
+.my-pytorch-c {
+    background-image: url("../ico/pytorch-c.svg");
+}
+.my-pytorch-c2 {
+    background-image: url("../ico/pytorch-c2.svg");
+}
+.my-sklearn-c {
+    background-image: url("../ico/sklearn-c.svg");
+}
+.my-flask {
+    background-image: url("../ico/flask.svg");
+}
+.my-flask2 {
+    background-image: url("../ico/flask2.svg");
+}
+.my-plotly-c {
+    background-image: url("../ico/plotly-c.svg");
+}
+.my-plotly-c2 {
+    background-image: url("../ico/plotly-c2.svg");
+}
+.my-selenium-c {
+    background-image: url("../ico/selenium-c.svg");
+}
+.my-pandas-c {
+    background-image: url("../ico/pandas-c.svg");
+}
+.my-opencv-c {
+    background-image: url("../ico/opencv-c.svg");
+}
+.my-tensorflow-c {
+    background-image: url("../ico/tensorflow-c.svg");
+}
+.my-torchdrug-c {
+    background-image: url("../ico/torchdrug-c.svg");
+}
+.my-streamlit-c {
+    background-image: url("../ico/streamlit-c.svg");
+}
+.my-streamlit-c2 {
+    background-image: url("../ico/streamlit-c2.svg");
+}
+.my-numpy-c {
+    background-image: url("../ico/numpy-c.svg");
+}
+.my-seaborn-c {
+    background-image: url("../ico/seaborn-c.svg");
+}
+.my-matplotlib-c {
+    background-image: url("../ico/matplotlib-c.svg");
+}
+.my-pydeck-c {
+    background-image: url("../ico/pydeck-c.svg");
+}
+
 .my-fill svg {
     fill: #009688FF !important;
 }
