@@ -56,6 +56,11 @@
     background-color: hsl(0deg 0% 20%) !important;
 }
 
+.my-button {
+    /* background-color: #ffffff !important; */
+    color: #00998a !important;
+}
+
 .my-project-title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
