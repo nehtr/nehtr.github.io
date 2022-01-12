@@ -1,7 +1,7 @@
 
 .parallax-1 {
     /* The image used */
-    background-image: url("../img/banner2.jpg");
+    background-image: url("../img/banner1.jpg");
 
     /* Full height */
     height: 100%;
@@ -14,7 +14,7 @@
 }
 .parallax-2 {
     /* The image used */
-    background-image: url("../img/banner3.png");
+    background-image: url("../img/banner2.jpg");
 
     /* Full height */
     height: 75%;
@@ -33,6 +33,7 @@
     box-shadow: 10px 10px 15px #000000;
     color: #000000;
 }
+
 /* .polyhedron {
     background: radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
     background: -moz-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
