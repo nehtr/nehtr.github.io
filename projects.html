@@ -86,25 +86,30 @@
         <div class="w3-container w3-card my-light-grey w3-margin-bottom">
           <div class="w3-container w3-margin-top w3-padding-16" style="text-align: justify">
             <h2 class="my-project-title">
-              Trial-AId
+              Trial A.I.d
             </h2>
-            <p>
-              Trial AId is a simple webapp that allows to search for a drug (experimental or not) and provides 
-              predictions through deep learning about the possible side effects and FDA approval of the drug, 
-              moreover it allows you to see the related clinical trials on that molecule currently available 
-              worldwide, all in one place and with one query.
-              <br>
-              <br>
+            <p style="font-size: small;">
+              Trial A.I.d is a simple webapp that allows to search for a drug (experimental or not) and provides 
+              predictions through deep learning about the possible side effects, toxicity, FDA approval, and other
+              characteristics of the drug. Moreover it allows to see the clinical trials on that molecule currently
+              available worldwide. All in one place and with one query.
+              <br><br>
               Currently all the pieces of information provided to the subjects involved in clinical trials come from 
-              the preclinical phase on animal models. Often they are not enough detailed or accurate to reliably 
-              inform the patients about all the possible outcomes of the experimental treatment which the subject 
-              is going to receive.
-              <br>
-              This is where Trial AId comes: it is an AI-powered tool that aims at providing more detailed information 
-              to the patient about the possible outcomes of the clinical trial, in order to aid more informed 
-              decisions when choosing to participate to a trial. This is possible thanks to a deep learning algorithm 
-              trained on hundreds of thousands of molecular structures and their corresponding properties and 
-              interactions.
+              the preclinical phase on in vitro and animal models. Often they are not enough detailed or accurate to 
+              reliably inform the patients about all the possible outcomes of the experimental treatment they are 
+              going going to receive.
+              This is where Trial A.I.d comes: it is an A.I.-powered tool that aims at providing more detailed and 
+              reliable information to the patient about the possible outcomes of the clinical trial, in order to aid 
+              more informed decisions when choosing to participate to a trial. This is possible thanks to a deep 
+              learning algorithm trained on hundreds of thousands of molecules, their properties and interactions.
+              <br><br>
+              Trial A.I.d is based on the powerful Torchdrug library (written upon PyTorch) and two enormous databases: 
+              PubChem (110+ millions of compounds) and ChEMBL (2.1+ millions of compounds). The clinical trials data is 
+              retrieved from ClinicalTrials.gov (400,000+ studies from 220 countries).
+              The model is pre-trained with unsupervised deep-learning on 250,000 molecules from the ZINC250k dataset. 
+              After that, it is specifically trained on thousands of molecules on 3 datasets: ClinTox, SIDER, and BBBP.
+              Currently the model has a 90% accuracy on the ClinTox dataset,a 70% accuracy on selected tasks of the 
+              SIDER dataset (all the one shown), and a 90% accuracy on the BBBP dataset.
             </p>
             <div class="w3-center">
               <a href="https://github.com/voidpunk/Trial-AId"
@@ -112,11 +117,11 @@
                 <i class="fa fa-github fa-lg"></i>
                 &nbsp GitHub
               </a>
-              <a href="https://share.streamlit.io/arraymancer/trial-aid"
+              <a href="https://share.streamlit.io/voidpunk/trial-aid"
                 class="w3-button w3-black w3-hover-text-white w3-margin-top" style="background-color: #700f0f !important;">
                 <!-- <i class="fa fa-rocket"></i> -->
                 <i class="fa fa-pills fa-lg"></i>
-                &nbsp Trial-AId
+                &nbsp Trial A.I.d
               </a>
             </div>
           </div>
@@ -148,6 +153,8 @@
     <div class="w3-xlarge w3-section">
       <a style="text-decoration: none;" href="mailto: davide.raucci.k@gmail.com"
         class="fa fa-envelope fa-lg w3-hover-opacity">&nbsp</a>
+      <a style="text-decoration: none;" href="tg://resolve?domain=voidpunk_glitch"
+        class="fa fa-telegram fa-lg w3-hover-opacity">&nbsp</a>
       <!-- <a class="fa fa-whatsapp fa-lg w3-hover-opacity">&nbsp</a> -->
       <a style="text-decoration: none;" href="https://github.com/voidpunk"
         class="fa fa-github fa-lg w3-hover-opacity">&nbsp</a>
@@ -155,8 +162,8 @@
         class="fa fa-gitlab fa-lg w3-hover-opacity">&nbsp</a>
       <a style="text-decoration: none;" href="https://www.kaggle.com/voidpunk"
         class="fab fa-kaggle fa-lg w3-hover-opacity">&nbsp</a>
-      <a style="text-decoration: none;" href="tg://resolve?domain=nilvoidpunk"
-        class="fa fa-telegram fa-lg w3-hover-opacity">&nbsp</a>
+      <a style="text-decoration: none;" href="https://medium.com/@voidpunk"
+        class="fab fa-medium-m fa-lg w3-hover-opacity">&nbsp</a>
       <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>-->
       <!-- <i class="fa fa-instagram fa-lg w3-hover-opacity">&nbsp</i> -->
       <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>-->
