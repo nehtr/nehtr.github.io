@@ -206,6 +206,12 @@
 .my-pydeck-c {
     background-image: url("../ico/pydeck-c.svg");
 }
+.my-huggingface-c {
+    background-image: url("../ico/huggingface-c.svg");
+}
+.my-telegram-c {
+    background-image: url("../ico/telegram-c.svg");
+}
 
 .my-fill svg {
     fill: #009688FF !important;
