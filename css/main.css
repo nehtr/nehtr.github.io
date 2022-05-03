@@ -23,6 +23,6 @@ footer a {
   color: var(--secondary-text) !important;
 }
 footer em {
-  color: var(--secondary-text) !important;
+  /* color: var(--secondary-text) !important; */
   font-family: monospace;
 }

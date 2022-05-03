@@ -300,28 +300,11 @@
       </div>
     </div>
     <!-- Footer -->
-    <footer class="w3-container w3-teal w3-center w3-margin-bottom" style="width: 100%">
-      <div class="w3-xlarge w3-section">
-        <a id="robo" style="text-decoration: none;" href="mailto: voidpunk.glitch@gmail.com"
-          class="fa fa-envelope fa-lg w3-hover-opacity">&nbsp</a>
-        <a style="text-decoration: none;" href="https://www.linkedin.com/in/davide-raucci-18a312192/"
-        class="fa fa-linkedin fa-lg w3-hover-opacity">&nbsp</a>
-        <a style="text-decoration: none;" href="https://github.com/voidpunk"
-        class="fa fa-github fa-lg w3-hover-opacity">&nbsp</a>
-        <!-- <a style="text-decoration: none;" href="https://gitlab.com/voidpunk"
-          class="fa fa-gitlab fa-lg w3-hover-opacity">&nbsp</a> -->
-        <a style="text-decoration: none;" href="https://www.kaggle.com/voidpunk"
-          class="fab fa-kaggle fa-lg w3-hover-opacity">&nbsp</a>
-        <a style="text-decoration: none;" href="tg://resolve?domain=voidpunk_glitch"
-          class="fa fa-telegram fa-lg w3-hover-opacity">&nbsp</a>
-        <a style="text-decoration: none;" href="https://medium.com/@voidpunk"
-          class="fab fa-medium-m fa-lg w3-hover-opacity">&nbsp</a>
-        <!-- <i class="fa fa-twitter w3-hover-opacity"></i>-->
-        <br>
-        <i style="font-size: 15px; text-align:left; color: #1a1a1a;">
-          <em>Copyright © 2022 @voidpunk</em>
-        </i>
-      </div>
-    </footer>
+    <div id="footer"></div>
+    <script>
+      $(() => {
+        $("#footer").load("../components/footer.html");
+      });
+    </script>
   </body>
 </html>
