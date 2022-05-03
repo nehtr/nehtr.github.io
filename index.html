@@ -1,232 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Home</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="yNGERLQBl5z3Jq1E_nlCp50MELgRlWg8qrD8mVFVlKE">
-  <link rel="icon" href="img/icon.ico">
-  <link rel="stylesheet" href="css/w3.css">
-  <link rel="stylesheet" href="css/my.css">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
-  <style>
-    html,
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Roboto", sans-serif
-    }
-
-    body,
-    html {
-      height: 100%;
-      width: 100%;
-      color: rgb(0, 0, 0);
-      line-height: 1.8;
-    }
-
-    p {
-      color: hsl(0deg 0% 75%);
-    }
-
-    a {
-      color: #1a1a1a
-    }
-
-    .bar-text {
-      color: hsl(0deg 0% 75%);
-    }
-
-    .home-text {
-      color: hsl(0deg 0% 75%);
-    }
-  </style>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script src="https://kit.fontawesome.com/6156122b87.js" crossorigin="anonymous"></script>
-</head>
-
-<body class="my-grey">
-  <!--Navbar (sit on top)-->
-  <br>
-  <div class="w3-top">
-    <div class="w3-bar my-black w3-wide w3-padding w3-card">
-      <a class="w3-bar-item my-button w3-hide-medium w3-hide-large w3-right fa fa-solid fa-bars fa-lg w3-hover-opacity" href="javascript:void(0);" style="text-decoration: none;"
-        onclick="toggleFunction()" title="Navigation Menu">
-      </a>
-      <a href="index.html" class="w3-bar-item w3-button w3-text-teal">
-        <b>Home</b>
-      </a>
-      <!-- Float links to the right. Hide them on small screens -->
-      <div class="w3-right w3-hide-small">
-        <a href="projects.html" class="w3-bar-item w3-button bar-text">Projects</a>
-        <a href="about.html" class="w3-bar-item w3-button bar-text">About</a>
-        <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray">Contact</a> -->
-      </div>
-    </div>
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block my-black w3-hide w3-hide-large w3-hide-medium">
-      <a href="projects.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">Projects</a>
-      <a href="about.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">About</a>
-      <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Contact</a> -->
-    </div>
-  </div>
-  <!-- First Parallax Image with Logo Text -->
-  <div class="parallax-1 w3-display-container w3-opacity-min">
-    <div class="w3-center w3-display-middle w3-padding-large polyhedron w3-xlarge w3-wide w3-animate-opacity">
-      <span style="font-weight: bolder; text-shadow: 2px 2px 2px  #7e0000;">
-        <strong style="font-size: 5vmin; color:#ff0018; font-family: 'My Soul', cursive; opacity: 1">
-          &nbsp&nbsp&nbspNil&nbsp&nbsp&nbsp
-        </strong>
-      </span>
-    </div>
-  </div>
-  <!--Provided services section-->
-  <div class="w3-row">
-    <div style="font-size: x-large; font-family: 'Courier New', Courier, monospace;">
-      <p class="w3-center w3-content w3-padding-32">
-        <strong>
-          Medicine & Biotechnology ⟺ Data-Science & Machine-Learning
-        </strong>
-      </p>
-    </div>
-    <!-- Container -->
-    <div class="w3-content w3-container w3-padding-32">
-      <!--<h3 class="w3-center">PROVIDED SERVICES</h3>-->
-      <br>
-      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-      <div class="w3-row-padding w3-center">
-        <div class="w3-col m3">
-          <span style="color: #009688FF;"><i class="fas fa-sitemap fa-5x"></i></span>
-          <!--class="fas fa-database fa-5x"-->
-          <p class="w3-wide"><strong>Data<br>Science</strong></p>
-        </div>
-        <div class="w3-col m3">
-          <span style="color: #009688FF;"><i class="fas fa-brain fa-5x"></i></span>
-          <p class="w3-wide"><strong>Machine<br>Learning</strong></p>
-        </div>
-        <div class="w3-col m3">
-          <span style="color: #009688FF;"><i class="fas fa-dna fa-5x"></i></span>
-          <p class="w3-wide"><strong>Biomedical<br>Research</strong></p>
-        </div>
-        <div class="w3-col m3">
-          <span style="color: #009688FF;"><i class="fas fa-code fa-5x"></i></span>
-          <p class="w3-wide"><strong>Webapp<br>Development</strong></p>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="yNGERLQBl5z3Jq1E_nlCp50MELgRlWg8qrD8mVFVlKE">
+    <link rel="icon" href="img/icon.ico">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/my.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
+    <style>
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Roboto", sans-serif
+      }
+      body,
+      html {
+        height: 100%;
+        width: 100%;
+        color: rgb(0, 0, 0);
+        line-height: 1.8;
+      }
+      p {
+        color: hsl(0deg 0% 75%);
+      }
+      a {
+        color: #1a1a1a
+      }
+      .bar-text {
+        color: hsl(0deg 0% 75%);
+      }
+      .home-text {
+        color: hsl(0deg 0% 75%);
+      }
+    </style>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/6156122b87.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="my-grey">
+    <!--Navbar (sit on top)-->
+    <br>
+    <div class="w3-top">
+      <div class="w3-bar my-black w3-wide w3-padding w3-card">
+        <a class="w3-bar-item my-button w3-hide-medium w3-hide-large w3-right fa fa-solid fa-bars fa-lg w3-hover-opacity" href="javascript:void(0);" style="text-decoration: none;"
+          onclick="toggleFunction()" title="Navigation Menu">
+        </a>
+        <a href="index.html" class="w3-bar-item w3-button w3-text-teal">
+          <b>Home</b>
+        </a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="projects.html" class="w3-bar-item w3-button bar-text">Projects</a>
+          <a href="about.html" class="w3-bar-item w3-button bar-text">About</a>
+          <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray">Contact</a> -->
         </div>
       </div>
-      <br>
-      <p class="w3-center" style="font-size:large">
-        <br>
-        <em>
-          I'm a freelancer data scientist focused on the biomedical field.
-        </em>
-      </p>
-      <br>
-      <div class="w3-content w3-container">
-        <p style="text-align:justify">
-          I am a young data scientist and machine-learning engineer coming from a strong background in the biomedical 
-          and biotech fields.
-          <br>
-          Thanks to the admixture of my background in the biomedical field and in data science, I have been 
-          able to develop unique skills across these two fields, which I have been able to apply in my current career. 
-          Indeed, now more than ever these fields are becoming more and more relevant to each other with the surge 
-          of machine learning and deep learning for aiding both clinical and research medical and biotech practice: 
-          from the diagnosis of diseases in x-rays with convolutional neural networks, to the development of new 
-          drugs with graph-based neural networks.
-        </p>
-        <br>
-        <p>
-          <i>
-            This website is developed by me, and since I am not a web-developer and all that I know about 
-            web-development just comes from self-teaching in a small portion of my spare time, forgive me if it 
-            isn't perfect :D.
-          </i>
-        </p>
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block my-black w3-hide w3-hide-large w3-hide-medium">
+        <a href="projects.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">Projects</a>
+        <a href="about.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">About</a>
+        <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Contact</a> -->
       </div>
     </div>
-  </div>
-  <!-- First Parallax Image with Logo Text -->
-  <div class="parallax-2 w3-display-container w3-opacity-min">
-    <div class="w3-display-middle" style="white-space:nowrap;">
+    <!-- First Parallax Image with Logo Text -->
+    <div class="parallax-1 w3-display-container w3-opacity-min">
+      <div class="w3-center w3-display-middle w3-padding-large polyhedron w3-xlarge w3-wide w3-animate-opacity">
+        <span style="font-weight: bolder; text-shadow: 2px 2px 2px  #7e0000;">
+          <strong style="font-size: 5vmin; color:#ff0018; font-family: 'My Soul', cursive; opacity: 1">
+            &nbsp&nbsp&nbspNil&nbsp&nbsp&nbsp
+          </strong>
+        </span>
+      </div>
     </div>
-  </div>
-  <!-- Container (About Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="about">
+    <!--Provided services section-->
     <div class="w3-row">
-      <!-- Container (Portfolio Section) -->
-      <div class="w3-content w3-container w3-padding-16" id="portfolio">
+      <div style="font-size: x-large; font-family: 'Courier New', Courier, monospace;">
+        <p class="w3-center w3-content w3-padding-32">
+          <strong>
+            Medicine & Biotechnology ⟺ Data-Science & Machine-Learning
+          </strong>
+        </p>
+      </div>
+      <!-- Container -->
+      <div class="w3-content w3-container w3-padding-32">
+        <!--<h3 class="w3-center">PROVIDED SERVICES</h3>-->
+        <br>
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-        <div class="w3-content w3-container w3-padding-16" id="portfolio">
-          <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-          <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-              <p class="w3-wide w3-large">
-                <strong>Python</strong>
-              </p>
-              <span style="color: #009688FF;">
-                <i class="my-icon my-python-c my-fill"></i>
-              </span>
-            </div>
-            <div class="w3-col m9">
-              <p style="text-align:justify" class="w3-content w3-left">
-                <br>
-                Advanced knowledge of Python, the language of data science and machine learning. 
-                With Python I can easily mine, clean, elaborate, plot, analyze and display data;
-                I can also build efficient machine-learning and deep-learning models able to analyze and interact 
-                with images, videos, text, and many more data types.
-                I use it also to develop proof-of-concept webapp and server backend. 
-                The main libraries I work with are shown below.
-              </p>
-            </div>
+        <div class="w3-row-padding w3-center">
+          <div class="w3-col m3">
+            <span style="color: #009688FF;"><i class="fas fa-sitemap fa-5x"></i></span>
+            <!--class="fas fa-database fa-5x"-->
+            <p class="w3-wide"><strong>Data<br>Science</strong></p>
+          </div>
+          <div class="w3-col m3">
+            <span style="color: #009688FF;"><i class="fas fa-brain fa-5x"></i></span>
+            <p class="w3-wide"><strong>Machine<br>Learning</strong></p>
+          </div>
+          <div class="w3-col m3">
+            <span style="color: #009688FF;"><i class="fas fa-dna fa-5x"></i></span>
+            <p class="w3-wide"><strong>Biomedical<br>Research</strong></p>
+          </div>
+          <div class="w3-col m3">
+            <span style="color: #009688FF;"><i class="fas fa-code fa-5x"></i></span>
+            <p class="w3-wide"><strong>Webapp<br>Development</strong></p>
           </div>
         </div>
-        <div class="w3-content w3-container w3-padding-16" id="portfolio">
-          <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-              <p class="w3-wide w3-large">
-                <strong>JavaScript</strong>
-              </p>
-              <span style="color: #009688FF;">
-                <i class="my-icon my-javascript-c my-fill"></i>
-              </span>
-            </div>
-            <div class="w3-col m9">
-              <p style="text-align:justify" class="w3-content w3-left">
-                <br>
-                Good knowledge of JavaScript, the language of web development. I to use it mainly to develop 
-                web-applications and web-sites, working alone as fullstack developer (both frontend and backend) 
-                for some advanced prototype applications in my field, or to better collaborate with the development team.
-                The main libraries I work with are shown below.
-              </p>
-            </div>
-          </div>
+        <br>
+        <p class="w3-center" style="font-size:large">
+          <br>
+          <em>
+            I'm a freelancer data scientist focused on the biomedical field.
+          </em>
+        </p>
+        <br>
+        <div class="w3-content w3-container">
+          <p style="text-align:justify">
+            I am a young data scientist and machine-learning engineer coming from a strong background in the biomedical 
+            and biotech fields.
+            <br>
+            Thanks to the admixture of my background in the biomedical field and in data science, I have been 
+            able to develop unique skills across these two fields, which I have been able to apply in my current career. 
+            Indeed, now more than ever these fields are becoming more and more relevant to each other with the surge 
+            of machine learning and deep learning for aiding both clinical and research medical and biotech practice: 
+            from the diagnosis of diseases in x-rays with convolutional neural networks, to the development of new 
+            drugs with graph-based neural networks.
+          </p>
+          <br>
+          <p>
+            <i>
+              This website was developed by me before I learnt how to write a decent website, so it's pretty terrible as quality,
+              forgive me for it, but I don't have time (and will) to write another one from scratch any soon, so I'll patch it lazily in next months.
+            </i>
+          </p>
         </div>
+      </div>
+    </div>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="parallax-2 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+      </div>
+    </div>
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <div class="w3-row">
+        <!-- Container (Portfolio Section) -->
         <div class="w3-content w3-container w3-padding-16" id="portfolio">
           <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-          <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-              <p class="w3-wide w3-large">
-                <strong>SQL</strong>
-              </p>
-              <span style="color: #009688FF;">
-                <i class="my-icon my-sql-c4 my-fill"></i>
-              </span>
+          <div class="w3-content w3-container w3-padding-16" id="portfolio">
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div class="w3-row-padding w3-center">
+              <div class="w3-col m3">
+                <p class="w3-wide w3-large">
+                  <strong>Python</strong>
+                </p>
+                <span style="color: #009688FF;">
+                  <i class="my-icon my-python-c my-fill"></i>
+                </span>
+              </div>
+              <div class="w3-col m9">
+                <p style="text-align:justify" class="w3-content w3-left">
+                  <br>
+                  Advanced knowledge of Python, the language of data science and machine learning. 
+                  With Python I can easily mine, clean, elaborate, plot, analyze and display data;
+                  I can also build efficient machine-learning and deep-learning models able to analyze and interact 
+                  with images, videos, text, and many more data types.
+                  I use it also to develop proof-of-concept webapp and server backend. 
+                  The main libraries I work with are shown below.
+                </p>
+              </div>
             </div>
-            <div class="w3-col m9">
-              <p style="text-align:justify" class="w3-content w3-left">
-                <br>
-                Good knowledge of SQL and its main applications. I use SQLite and MySQL as management systems. 
-                I can both query directly the database to retrieve and elaborate data, as well as integrating it
-                with a Python or JavaScript application.
-              </p>
+          </div>
+          <div class="w3-content w3-container w3-padding-16" id="portfolio">
+            <div class="w3-row-padding w3-center">
+              <div class="w3-col m3">
+                <p class="w3-wide w3-large">
+                  <strong>JavaScript</strong>
+                </p>
+                <span style="color: #009688FF;">
+                  <i class="my-icon my-javascript-c my-fill"></i>
+                </span>
+              </div>
+              <div class="w3-col m9">
+                <p style="text-align:justify" class="w3-content w3-left">
+                  <br>
+                  Good knowledge of JavaScript, the language of web development. I to use it mainly to develop 
+                  web-applications and web-sites, working alone as fullstack developer (both frontend and backend) 
+                  for some advanced prototype applications in my field, or to better collaborate with the development team.
+                  The main libraries I work with are shown below.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-content w3-container w3-padding-16" id="portfolio">
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div class="w3-row-padding w3-center">
+              <div class="w3-col m3">
+                <p class="w3-wide w3-large">
+                  <strong>SQL</strong>
+                </p>
+                <span style="color: #009688FF;">
+                  <i class="my-icon my-sql-c4 my-fill"></i>
+                </span>
+              </div>
+              <div class="w3-col m9">
+                <p style="text-align:justify" class="w3-content w3-left">
+                  <br>
+                  Good knowledge of SQL and its main applications. I use SQLite and MySQL as management systems. 
+                  I can both query directly the database to retrieve and elaborate data, as well as integrating it
+                  with a Python or JavaScript application.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="w3-content w3-container">
+            <p style="text-align: justify;">
+              In the grid below there are the main libraries and frameworks I use to work with when developing in Python. 
+            </p>
+          </div>
+          <br>
+          <div class="w3-row">
+            <!-- Container -->
+            <div class="w3-content w3-container w3-padding-64">
+              <div class="w3-row-padding w3-center">
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-torchdrug-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Torchdrug</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-pytorch-c2 my-fill"></i></span>
+                  <p class="w3-wide"><strong>Pytorch</strong></p>
+                </div>
+                <div class="w3-col m3">
+                    <span style="color: #009688FF;"><i class="my-icon my-tensorflow-c my-fill"></i></span>
+                    <p class="w3-wide"><strong>Tensorflow</strong></p>
+                  </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-sklearn-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Scikit-Learn</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-opencv-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>OpenCV</strong></p>
+                </div>
+                <div class="w3-col m3">
+                    <span style="color: #009688FF;"><i class="my-icon my-plotly-c2 my-fill"></i></span>
+                    <p class="w3-wide"><strong>Plotly</strong></p>
+                  </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-streamlit-c2 my-fill"></i></span>
+                  <p class="w3-wide"><strong>Streamlit</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-huggingface-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Hugging Face</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-seaborn-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Seaborn</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-pydeck-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Pydeck</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-selenium-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Selenium</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-telegram-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Telegram API</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-numpy-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Numpy</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-pandas-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Pandas</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-matplotlib-c my-fill"></i></span>
+                  <p class="w3-wide"><strong>Matplotlib</strong></p>
+                </div>
+                <div class="w3-col m3">
+                  <span style="color: #009688FF;"><i class="my-icon my-flask2 my-fill"></i></span>
+                  <p class="w3-wide"><strong>Flask</strong></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -234,137 +306,57 @@
         <br>
         <div class="w3-content w3-container">
           <p style="text-align: justify;">
-            In the grid below there are the main libraries and frameworks I use to work with when developing in Python. 
+            In the grid below there are the main libraries and frameworks I use to work with when developing in JavaScript. 
           </p>
         </div>
         <br>
         <div class="w3-row">
-          <!-- Container -->
           <div class="w3-content w3-container w3-padding-64">
             <div class="w3-row-padding w3-center">
               <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-torchdrug-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Torchdrug</strong></p>
+                <span style="color: #009688FF;"><i class="my-icon my-node-c my-fill"></i></span>
+                <p class="w3-wide"><strong>Nodejs</strong></p>
               </div>
               <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-pytorch-c2 my-fill"></i></span>
-                <p class="w3-wide"><strong>Pytorch</strong></p>
+                <span style="color: #009688FF;"><i class="my-icon my-express-2 my-fill"></i></span>
+                <p class="w3-wide"><strong>Express</strong></p>
               </div>
               <div class="w3-col m3">
-									<span style="color: #009688FF;"><i class="my-icon my-tensorflow-c my-fill"></i></span>
-									<p class="w3-wide"><strong>Tensorflow</strong></p>
-								</div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-sklearn-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Scikit-Learn</strong></p>
+                <span style="color: #009688FF;"><i class="my-icon my-react-c my-fill"></i></span>
+                <p class="w3-wide"><strong>React</strong></p>
               </div>
               <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-opencv-c my-fill"></i></span>
-                <p class="w3-wide"><strong>OpenCV</strong></p>
-              </div>
-              <div class="w3-col m3">
-									<span style="color: #009688FF;"><i class="my-icon my-plotly-c2 my-fill"></i></span>
-									<p class="w3-wide"><strong>Plotly</strong></p>
-								</div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-streamlit-c2 my-fill"></i></span>
-                <p class="w3-wide"><strong>Streamlit</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-huggingface-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Hugging Face</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-seaborn-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Seaborn</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-pydeck-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Pydeck</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-selenium-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Selenium</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-telegram-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Telegram API</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-numpy-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Numpy</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-pandas-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Pandas</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-matplotlib-c my-fill"></i></span>
-                <p class="w3-wide"><strong>Matplotlib</strong></p>
-              </div>
-              <div class="w3-col m3">
-                <span style="color: #009688FF;"><i class="my-icon my-flask2 my-fill"></i></span>
-                <p class="w3-wide"><strong>Flask</strong></p>
+                <span style="color: #009688FF;"><i class="my-icon my-redux-c my-fill"></i></span>
+                <p class="w3-wide"><strong>Redux</strong></p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <br>
-      <br>
-      <div class="w3-content w3-container">
-        <p style="text-align: justify;">
-          In the grid below there are the main libraries and frameworks I use to work with when developing in JavaScript. 
-        </p>
-      </div>
-      <br>
-      <div class="w3-row">
-        <div class="w3-content w3-container w3-padding-64">
-          <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-              <span style="color: #009688FF;"><i class="my-icon my-node-c my-fill"></i></span>
-              <p class="w3-wide"><strong>Nodejs</strong></p>
-            </div>
-            <div class="w3-col m3">
-              <span style="color: #009688FF;"><i class="my-icon my-express-2 my-fill"></i></span>
-              <p class="w3-wide"><strong>Express</strong></p>
-            </div>
-            <div class="w3-col m3">
-              <span style="color: #009688FF;"><i class="my-icon my-react-c my-fill"></i></span>
-              <p class="w3-wide"><strong>React</strong></p>
-            </div>
-            <div class="w3-col m3">
-              <span style="color: #009688FF;"><i class="my-icon my-redux-c my-fill"></i></span>
-              <p class="w3-wide"><strong>Redux</strong></p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <!-- Footer -->
-  <footer class="w3-container w3-teal w3-center w3-margin-bottom" style="width: 100%">
-    <div class="w3-xlarge w3-section">
-      <a style="text-decoration: none;" href="mailto: voidpunk.glitch@gmail.com"
-        class="fa fa-envelope fa-lg w3-hover-opacity">&nbsp</a>
-      <a style="text-decoration: none;" href="tg://resolve?domain=voidpunk_glitch"
-        class="fa fa-telegram fa-lg w3-hover-opacity">&nbsp</a>
-      <a style="text-decoration: none;" href="https://github.com/voidpunk"
-        class="fa fa-github fa-lg w3-hover-opacity">&nbsp</a>
-      <!-- <a style="text-decoration: none;" href="https://gitlab.com/voidpunk"
-        class="fa fa-gitlab fa-lg w3-hover-opacity">&nbsp</a> -->
-      <a style="text-decoration: none;" href="https://www.kaggle.com/voidpunk"
-        class="fab fa-kaggle fa-lg w3-hover-opacity">&nbsp</a>
-      <a style="text-decoration: none;" href="https://medium.com/@voidpunk"
-        class="fab fa-medium-m fa-lg w3-hover-opacity">&nbsp</a>
-      <!-- <i class="fa fa-twitter w3-hover-opacity"></i>-->
-      <!-- <i class="fa fa-linkedin fa-lg w3-hover-opacity">&nbsp</i> -->
-      <br>
-      <i style="font-size: 15px; text-align:left; color: #1a1a1a;">
-        <em>Copyright © 2022 @voidpunk Web Design</em>
-      </i>
-    </div>
-  </footer>
-</body>
-
+    <!-- Footer -->
+    <footer class="w3-container w3-teal w3-center w3-margin-bottom" style="width: 100%">
+      <div class="w3-xlarge w3-section">
+        <a style="text-decoration: none;" href="mailto: voidpunk.glitch@gmail.com"
+          class="fa fa-envelope fa-lg w3-hover-opacity">&nbsp</a>
+          <a style="text-decoration: none;" href="https://www.linkedin.com/in/davide-raucci-18a312192/"
+          class="fa fa-linkedin fa-lg w3-hover-opacity">&nbsp</a>
+          <a style="text-decoration: none;" href="https://github.com/voidpunk"
+          class="fa fa-github fa-lg w3-hover-opacity">&nbsp</a>
+          <!-- <a style="text-decoration: none;" href="https://gitlab.com/voidpunk"
+            class="fa fa-gitlab fa-lg w3-hover-opacity">&nbsp</a> -->
+          <a style="text-decoration: none;" href="https://www.kaggle.com/voidpunk"
+            class="fab fa-kaggle fa-lg w3-hover-opacity">&nbsp</a>
+          <a style="text-decoration: none;" href="tg://resolve?domain=voidpunk_glitch"
+            class="fa fa-telegram fa-lg w3-hover-opacity">&nbsp</a>
+          <a style="text-decoration: none;" href="https://medium.com/@voidpunk"
+            class="fab fa-medium-m fa-lg w3-hover-opacity">&nbsp</a>
+        <!-- <i class="fa fa-twitter w3-hover-opacity"></i>-->
+        <br>
+        <i style="font-size: 15px; text-align:left; color: #1a1a1a;">
+          <em>Copyright © 2022 @voidpunk Web Design</em>
+        </i>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,11 +1,6 @@
-
 .parallax-1 {
-    /* The image used */
     background-image: url("../img/banner1.jpg");
-
-    /* Full height */
     height: 100%;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -13,12 +8,8 @@
     background-size: cover;
 }
 .parallax-2 {
-    /* The image used */
     background-image: url("../img/banner2.jpg");
-
-    /* Full height */
     height: 75%;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -33,17 +24,6 @@
     box-shadow: 10px 10px 15px #000000;
     color: #000000;
 }
-
-/* .polyhedron {
-    background: radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
-    background: -moz-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
-    background: -webkit-radial-gradient(circle, #000000 31%,#00ffae 56%,#000000 88%);
-    border-radius: 100px 0px 100px 0px;
-    box-shadow: 10px 10px 15px #000000;
-    color: #000000;
-
-} */
-
 .my-black{
     color: #000 !important;
     background-color: #1a1a1a !important;
@@ -56,43 +36,38 @@
     color: #000 !important;
     background-color: hsl(0deg 0% 20%) !important;
 }
-
 .my-button {
-    /* background-color: #ffffff !important; */
     color: #00998a !important;
 }
-
 .my-project-title {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    font-weight: bold;
-    color: #019688 !important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  font-weight: bold;
+  color: #019688 !important;
 }
-
 .my-grey-title {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    font-weight: bold;
-    color: #019688 !important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  font-weight: bold;
+  color: #019688 !important;
 }
-
 .my-grey-subtitle {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1em;
-    font-weight: bold;
-    color: #8de7e1 !important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  font-weight: bold;
+  color: #8de7e1 !important;
 }
-
-/*icon set:
-*/
 .my-icon {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-size: cover;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+.my-fill svg {
+    fill: #009688FF !important;
 }
 .my-c {
-    background-image: url("../ico/c.svg");
+  background-image: url("../ico/c.svg");
 }
 .my-cpp {
     background-image: url("../ico/cpp.svg");
@@ -233,38 +208,3 @@
 .my-redux-c {
     background-image: url("../ico/redux-c.svg");
 }
-
-.my-fill svg {
-    fill: #009688FF !important;
-}
-/*!* Create a Parallax Effect *!*/
-/*.bgimg-1, .bgimg-2, .bgimg-3 {*/
-/*    background-attachment: fixed;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
-/*!* First image (Logo. Full height) *!*/
-/*.bgimg-1 {*/
-/*    background-image: url('../img/banner.jpg');*/
-/*    min-height: 100%;*/
-/*}*/
-/*!* Second image (Portfolio) *!*/
-/*.bgimg-2 {*/
-/*    background-image: url("../img/banner.jpg");*/
-/*    min-height: 400px;*/
-/*}*/
-/*!* Third image (Contact) *!*/
-/*.bgimg-3 {*/
-/*    background-image: url("../img/banner.jpg");*/
-/*    min-height: 400px;*/
-/*}*/
-/*!*.w3-wide {letter-spacing: 10px;}*!*/
-/*.w3-hover-opacity {cursor: pointer;}*/
-/*!* Turn off parallax scrolling for tablets and phones *!*/
-/*@media only screen and (max-device-width: 1600px) {*/
-/*    .bgimg-1, .bgimg-2, .bgimg-3 {*/
-/*        background-attachment: scroll;*/
-/*        min-height: 400px;*/
-/*    }*/
-/*}*/
