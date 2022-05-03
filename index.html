@@ -44,32 +44,32 @@
         color: hsl(0deg 0% 75%);
       }
     </style>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src="https://kit.fontawesome.com/6156122b87.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/6156122b87.js" crossorigin="anonymous" defer></script>
   </head>
   <body class="my-grey">
     <!--Navbar (sit on top)-->
-    <br>
-    <div class="w3-top">
-      <div class="w3-bar my-black w3-wide w3-padding w3-card">
-        <a class="w3-bar-item my-button w3-hide-medium w3-hide-large w3-right fa fa-solid fa-bars fa-lg w3-hover-opacity" href="javascript:void(0);" style="text-decoration: none;"
-          onclick="toggleFunction()" title="Navigation Menu">
-        </a>
-        <a href="index.html" class="w3-bar-item w3-button w3-text-teal">
-          <b>Home</b>
-        </a>
-        <!-- Float links to the right. Hide them on small screens -->
-        <div class="w3-right w3-hide-small">
-          <a href="projects.html" class="w3-bar-item w3-button bar-text">Projects</a>
-          <a href="about.html" class="w3-bar-item w3-button bar-text">About</a>
-          <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray">Contact</a> -->
+    <div class="w3-top">        
+        <div class="w3-bar my-black w3-wide w3-padding w3-card">
+          <a class="w3-bar-item my-button w3-hide-medium w3-hide-large w3-right fa fa-solid fa-bars fa-lg w3-hover-opacity" style="text-decoration: none;"
+            onclick="toggleFunction()" title="Navigation Menu">
+          </a>
+          <a href="index.html" class="w3-bar-item w3-button w3-text-teal">
+            <b>Home</b>
+          </a>
+          <!-- Float links to the right. Hide them on small screens -->
+          <div class="w3-right w3-hide-small">
+            <a href="projects.html" class="w3-bar-item w3-button bar-text">Projects</a>
+            <a href="about.html" class="w3-bar-item w3-button bar-text">About</a>
+            <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray">Contact</a> -->
+          </div>
         </div>
-      </div>
-      <!-- Navbar on small screens -->
-      <div id="navDemo" class="w3-bar-block my-black w3-hide w3-hide-large w3-hide-medium">
-        <a href="projects.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">Projects</a>
-        <a href="about.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">About</a>
-        <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Contact</a> -->
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block my-black w3-hide w3-hide-large w3-hide-medium">
+          <a href="projects.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">Projects</a>
+          <a href="about.html" class="w3-bar-item w3-button bar-text" onclick="toggleFunction()">About</a>
+          <!-- <a href="html/contact.html" class="w3-bar-item w3-button w3-text-dark-gray" onclick="toggleFunction()">Contact</a> -->
+        </div> 
       </div>
     </div>
     <!-- First Parallax Image with Logo Text -->
@@ -94,25 +94,23 @@
       </div>
       <!-- Container -->
       <div class="w3-content w3-container w3-padding-32">
-        <!--<h3 class="w3-center">PROVIDED SERVICES</h3>-->
         <br>
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
         <div class="w3-row-padding w3-center">
           <div class="w3-col m3">
-            <span style="color: #009688FF;"><i class="my-icon my-chart-line"></i></span>
-            <!--class="fas fa-database fa-5x"-->
+            <i id="fields" class="my-icon my-chart-line color-svg"></i>
             <p class="w3-wide"><strong>Data<br>Science</strong></p>
           </div>
           <div class="w3-col m3">
-            <span style="color: #009688FF;"><i class="my-icon my-microchip-ai"></i></span>
+              <i class="my-icon my-microchip-ai color-svg"></i>
             <p class="w3-wide"><strong>Machine<br>Learning</strong></p>
           </div>
           <div class="w3-col m3">
-            <span style="color: #009688FF;"><i class="my-icon my-dna"></i></span>
+            <i class="my-icon my-dna color-svg"></i>
             <p class="w3-wide"><strong>Biomedical<br>Research</strong></p>
           </div>
           <div class="w3-col m3">
-            <span style="color: #009688FF;"><i class="my-icon my-code-solid"></i></span>
+            <i class="my-icon my-code-solid color-svg"></i>
             <p class="w3-wide"><strong>Web<br>Development</strong></p>
           </div>
         </div>

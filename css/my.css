@@ -64,9 +64,6 @@
   height: 100px;
   background-size: cover;
 }
-.my-fill svg {
-    fill: #009688FF !important;
-}
 .my-c {
   background-image: url("../ico/c.svg");
 }
@@ -246,5 +243,8 @@
     background-image: url("../ico/code.svg");
 }
 .my-code-solid {
-    background-image: url("../ico/code-solid.svg");
+  background-image: url("../ico/code-solid.svg");
+}
+.color-svg {
+  filter: brightness(0) saturate(100%) invert(38%) sepia(30%) saturate(6507%) hue-rotate(154deg) brightness(93%) contrast(102%);
 }
