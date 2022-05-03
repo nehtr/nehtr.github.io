@@ -212,6 +212,27 @@
 .my-telegram-c {
     background-image: url("../ico/telegram-c.svg");
 }
+.my-node-c {
+    background-image: url("../ico/node-c.svg");
+}
+.my-node-c2 {
+    background-image: url("../ico/node-c2.svg");
+}
+.my-express {
+    background-image: url("../ico/express.svg");
+}
+.my-express-2 {
+    background-image: url("../ico/express-2.svg");
+}
+.my-react-c {
+    background-image: url("../ico/react-c.svg");
+}
+.my-react-c2 {
+    background-image: url("../ico/react-c2.svg");
+}
+.my-redux-c {
+    background-image: url("../ico/redux-c.svg");
+}
 
 .my-fill svg {
     fill: #009688FF !important;
