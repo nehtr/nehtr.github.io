@@ -2,18 +2,23 @@
   --primary: #262626; 
   --primary-text: #bfbfbf;
   --secondary: #009688;
-  --secondary-text: #ffffff;
+  --secondary-text: #1a1a1a;
   --accent: #1a1a1a;
   --accent-text: #009688;
 }
-
 * {
   font-family: "JetBrains Mono", monospace;
   color: var(--primary-text) !important;
 }
-/* #robo {
-  font-family: sans-serif !important;
-} */
+body {
+  background-color: var(--primary) !important;
+}
 nav {
   background-color: var(--secondary) !important;
+}
+p {
+  color: var(--primary-text);
+}
+a em {
+  color: var(--secondary-text) !important;
 }
