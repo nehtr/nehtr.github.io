@@ -1,7 +1,7 @@
+/* Create the parallax scrolling effect */
 .parallax-1 {
     background-image: url("../img/banner1.jpg");
     height: 100%;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +10,14 @@
 .parallax-2 {
     background-image: url("../img/banner2.jpg");
     height: 75%;
-    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 {
+    background-image: url("../img/banner3.jpg");
+    height: 75%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
