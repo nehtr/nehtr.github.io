@@ -2,9 +2,10 @@
   --primary: #262626; 
   --primary-text: #bfbfbf;
   --secondary: #009688;
+  --tertiary: #00574e;
   --secondary-text: #1a1a1a;
   --accent: #1a1a1a;
-  --accent-text: #009688;
+  --accent-text: #006e63;
 }
 * {
   font-family: "JetBrains Mono", monospace;
