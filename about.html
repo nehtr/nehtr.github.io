@@ -31,6 +31,9 @@
         .home-text {
           color: hsl(0deg 0% 75%);
         }
+        h1, h2 {
+          font-family: 'JetBrains Mono', monospace;
+        }
       </style>
   </head>
   <body class="my-grey">
@@ -49,7 +52,7 @@
         <div class="w3-third">
           <div class="my-light-grey w3-card-4">
             <div class="w3-display-container w3-hide-small">
-                <img src="../img/profile.jpg" style="width:100%; border-radius: 50%;" alt="Avatar" >
+                <img src="../img/profile.jpg" style="width:100%; border-radius: 50%; padding: 10px;" alt="Avatar" >
               <div class="w3-container">
                 <div class="fa #fa-fw w3-margin-right w3-large w3-text-teal">
                   <h2>Nil </h2>
@@ -58,61 +61,90 @@
               </div>
             </div>
             <div class="w3-display-container w3-hide-medium w3-hide-large w3-center w3-padding-16">
-              <!-- <div style="padding: 100px; margin: 100px;"> -->
-                <img src="../img/profile.jpg" style="width:50%; border-radius: 50%; padding: 10px;" alt="Avatar">
-              <!-- </div> -->
+                <img src="../img/profile.jpg" style="width:50%; border-radius: 50%;" alt="Avatar">
               <div class="w3-container">
                 <div class="fa #fa-fw w3-margin-right w3-large w3-text-teal">
-                  <h2>Nil (@voidpunk)</h2>
+                  <h2 style="font-family: monospace">Nil (@voidpunk)</h2>
                 </div>
               </div>
             </div>
               <div class="w3-container">
+              <hr>
+              <p class="w3-large my-grey-title">
+                <strong>
+                  Infos
+                </strong>
               <p>
                 <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                freelancer
+                Freelancer
               </p>
               <p>
                 <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
                 Milan, Italy
               </p>
               <p>
-                <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                voidpunk.glitch@gmail.com
+                <i class="fa fa-globe fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                English - Italian
               </p>
               <hr>
               <p class="w3-large my-grey-title">
+                <strong>
+                  <!-- <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i> -->
+                  Contacts
+                </strong>
+              </p>
+              <p>
+                <a href="mailto: voidpunk.glitch@gmail.com" style="text-decoration: inherit;">
+                  <i class="fa fa-envelope fa-lg fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                  E-mail
+                </a>
+              </p>
+              <p>
+                <a href="https://www.linkedin.com/in/voidpunk" style="text-decoration: inherit;">
+                  <i class="fab fa-linkedin fa-lg fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                  LinkedIn
+                </a>
+              </p>
+              <p>
+                <a href="tg://resolve?domain=voidpunk_glitch" style="text-decoration: inherit;">
+                  <i class="fab fa-telegram fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                  Telegram
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/voidpunk" style="text-decoration: inherit;">
+                  <i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                  GitHub
+                </a>
+              </p>
+              <p>
+                <a href="https://www.kaggle.com/voidpunk" style="text-decoration: inherit;">
+                  <i class="fab fa-kaggle fa-lg fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                  Kaggle
+                </a>
+              </p>
+              <p>
+                <a href="https://medium.com/@voidpunk" style="text-decoration: inherit;">
+                  <i class="fab fa-medium-m fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                  Medium
+                </a>
+              </p>
+              <!-- <p class="w3-large my-grey-title">
                 <b>
                   <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
                   Skills
                 </b>
               </p>
-              <div style="color: hsl(0deg 0% 75%);">
-                <li>Medicine & biotechnology</li>
-                <li>Programming & computer science</li>
-                <li>General mathematics & physics</li>
-                <li>Very strong self-study ability</li>
-                <li>Very strong problem-solving</li>
-              </div>
-              <br>
-              <p class="w3-large my-grey-title">
-                <b>
-                  <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>
-                  Languages
-                </b>
-              </p>
-              <p>Italian</p>
-              <div class="w3-dark-grey w3-round-xlarge" style="font-size: 5px">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%"><br></div>
-              </div>
-              <p>English</p>
-              <div class="w3-dark-grey w3-round-xlarge" style="font-size: 5px">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%"><br></div>
-              </div>
-              <br>
+              <div style="font-size: small;">
+                <ul style="padding-left: 25px;">
+                  <li>Medicine & biotech</li>
+                  <li>Computer science</li>
+                  <li>Self-learning ability</li>
+                  <li>Problem-solving</li>
+                </ul>
+              </div> -->
             </div>
           </div>
-          <br>
         </div>
         <!-- Right Column -->
         <div class="w3-twothird">
@@ -122,31 +154,21 @@
               About me
             </h3>
             <div class="w3-container">
-              <h5 class="w3-opacity my-grey-subtitle">
-                <b>Who am I?</b>
-              </h5>
               <p style="text-align: justify">
-                I am a young data scientist and machine-learning engineer coming from a strong background in the 
-                biomedical and biotechnological fields.
+                I'm <em>Nil</em>, a young data scientist and machine-learning engineer with a strong background
+                in the medical and biotech fields.
+                <br><br>
                 This is due to my university education as student of Medicine and Surgery at the International Medical 
-                School in Milan, which sadly I had to temporary suspend due to economic reasons. Besides my interest 
-                in the biomedical and biotechnological fields, I am always been passionate for data science and computer 
-                science, so when I got the opportunity to start a new career, I immediately took it.
-              </p>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity my-grey-subtitle">
-                <b>Why do I work as a programmer?</b>
-              </h5>
-              <p style="text-align: justify">
-                Besides paying for my university studies? Well, I started learning programming some years ago in my spare 
-                time, and then I decided to further explore the field. Therefore, I enrolled in the data science and AI 
-                engineering course at Strive School, where I learnt the foundations of these fields and worked on projects 
-                tackling real-life problems. My current goal is to join my knowledge in the informatics and biomedical 
+                School in Milan, which sadly I had to suspend due to economic reasons.
+                <br><br>
+                Besides my interest the biomedical
+                field, I've always been passionate for data science and computer science, so I chose to make a virtue of
+                necessity and to change my career path. Now I take advantage of my biomedical background, leveraging it
+                to develop innovative tools and applications for the biomedical community.
+                <br><br>
+                My current goal is to join my knowledge in the informatics and biomedical 
                 fields in the future.
               </p>
-              <hr>
             </div>
           </div>
           <div class="w3-container w3-card my-light-grey">
@@ -156,28 +178,28 @@
             </h3>
             <div class="w3-container">
               <h5 class="w3-opacity my-grey-subtitle">
+                <b>Strive School - AI engineering course</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2021
+              </h6>
+              <p>
+                Currently studying data science and machine learning at the AI engineering course at Strive School.
+              </p>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity my-grey-subtitle">
                 <b>International Medical School - University of Milan</b>
               </h5>
               <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - now [suspended]
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2021 [suspended]
               </h6>
               <p>
                 I studied at the International Medical School of the University of Milan "La Statale", Segrate.
                 <br>
                 I currently suspended these studies for two years.
               </p>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity my-grey-subtitle">
-                <b>Strive School - AI engineering course</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2021
-              </h6>
-                <p>
-                  Currently studying data science and machine learning at the AI engineering course at Strive School.
-                </p>
               <hr>
             </div>
             <div class="w3-container">
@@ -207,7 +229,7 @@
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever
               </h6>
-              <p>Not as in the average CV, half of my knowledge and competences ACTUALLY comes from self-teaching.
+              <p>Not as in the average CV, more than a half of my knowledge and competences <u>actually</u> come from self-teaching.
               </p>
               <br>
             </div>
