@@ -254,6 +254,9 @@
 .my-torchdrug-c2 {
     background-image: url("../ico/torchdrug-c2.svg");
 }
+.my-png-fastai-c {
+    background-image: url("../img/fastai.png");
+}
 .color-svg {
   filter: brightness(0) saturate(100%) invert(38%) sepia(30%) saturate(6507%) hue-rotate(154deg) brightness(93%) contrast(102%);
 }
