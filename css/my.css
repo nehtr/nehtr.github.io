@@ -211,48 +211,51 @@
 }
 .my-redux-c {
     background-image: url("../ico/redux-c.svg");
-}
-.my-dna {
+  }
+  .my-dna {
     background-image: url("../ico/dna.svg");
-}
-.my-microscope {
+  }
+  .my-microscope {
     background-image: url("../ico/microscope.svg");
-}
-.my-microchip-ai {
+  }
+  .my-microchip-ai {
     background-image: url("../ico/microchip-ai.svg");
-}
-.my-brain {
+  }
+  .my-brain {
     background-image: url("../ico/brain.svg");
-}
-.my-brain-circuit {
+  }
+  .my-brain-circuit {
     background-image: url("../ico/brain-circuit.svg");
-}
-.my-chart-line {
+  }
+  .my-chart-line {
     background-image: url("../ico/chart-line.svg");
-}
-.my-chart-candlestick {
+  }
+  .my-chart-candlestick {
     background-image: url("../ico/chart-candlestick.svg");
-}
-.my-chart-mixed {
+  }
+  .my-chart-mixed {
     background-image: url("../ico/chart-mixed.svg");
-}
-.my-chart-pie {
+  }
+  .my-chart-pie {
     background-image: url("../ico/chart-pie.svg");
-}
-.my-chart-network {
+  }
+  .my-chart-network {
     background-image: url("../ico/chart-network.svg");
-}
+  }
 .my-chart-scatter-bubble {
     background-image: url("../ico/chart-scatter-bubble.svg");
 }
 .my-code {
-    background-image: url("../ico/code.svg");
+  background-image: url("../ico/code.svg");
 }
 .my-code-solid {
   background-image: url("../ico/code-solid.svg");
 }
 .my-torchdrug-c2 {
-    background-image: url("../ico/torchdrug-c2.svg");
+  background-image: url("../ico/torchdrug-c2.svg");
+}
+.my-fastapi-c {
+  background-image: url("../ico/fastapi-c.svg");
 }
 .my-png-fastai-c {
     background-image: url("../img/fastai.png");
