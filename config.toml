@@ -18,7 +18,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 username = "Nil Raucci"
-user_description = "Specializing in Computer Vision and Artificial Intelligence, my journey began with a pivot from medicine and surgery to self-taught programming and machine learning. Now, as a developer in the R&D department of a leading manufacturer of X-ray machines, my current focus is on enhancing these systems for better diagnostics and improved patient outcomes."
+user_description = "With a background in Medicine and Surgery from the International Medical School of the University of Milan, I transitioned to a career in Computer Vision and Artificial Intelligence through self-directed learning and hands-on programming experience. Currently, I work in the R&D department at GMM Group, a leading manufacturer of X-ray machines, focusing on improving diagnostic capabilities and advancing patient care."
 user_title = "Computer Vision & Artificial Intelligence\n in Medicine & Biotech"
 email = "nil.raucci@gmail.com"
 github_username = "voidpunk"
